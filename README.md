@@ -136,7 +136,7 @@ John the Ripper began testing possible passwords against the hash.
 
 How long it takes can depend on the computer being used and how difficult the password is to guess.
 
-![alt text](
+![alt text](https://github.com/PrudenceSelasiDela-Boso/-PASSWORD-CRACKING-JOHN-THE-RIPPER-AND-NETWORKWALKS-TOOLS-/blob/main/8%20start%20new%20attack.png)
 
 ### Step 9: Check the Result
 
@@ -144,13 +144,17 @@ I waited for the password-testing process to finish.
 
 When a matching password was found, Johnny displayed it in the application.
 
+![alt text](https://github.com/PrudenceSelasiDela-Boso/-PASSWORD-CRACKING-JOHN-THE-RIPPER-AND-NETWORKWALKS-TOOLS-/blob/main/9%20cracked%20password.png)
+
 I then used the recovered password to open the locked PDF file and confirm that it worked.
 
-![alt text](https://github.com/PrudenceSelasiDela-Boso/-PASSWORD-CRACKING-JOHN-THE-RIPPER-AND-NETWORKWALKS-TOOLS-/blob/main/8%20start%20new%20attack.png)
+![alt text](https://github.com/PrudenceSelasiDela-Boso/-PASSWORD-CRACKING-JOHN-THE-RIPPER-AND-NETWORKWALKS-TOOLS-/blob/main/10%20enter%20password%20to%20open.png)
+
+![alt text](https://github.com/PrudenceSelasiDela-Boso/-PASSWORD-CRACKING-JOHN-THE-RIPPER-AND-NETWORKWALKS-TOOLS-/blob/main/11%20file%20opened.png) 
 
 **That completed my first password-cracking exercise using John the Ripper and Johnny.**
 
-![alt text](https://github.com/PrudenceSelasiDela-Boso/-PASSWORD-CRACKING-JOHN-THE-RIPPER-AND-NETWORKWALKS-TOOLS-/blob/main/9%20cracked%20password.png)
+
 
 ---
 
@@ -236,6 +240,8 @@ On the Password Cracker page, I:
 4. Clicked **Start Cracking**.
 
 ![alt text](https://github.com/PrudenceSelasiDela-Boso/-PASSWORD-CRACKING-JOHN-THE-RIPPER-AND-NETWORKWALKS-TOOLS-/blob/main/3%20paste%20hash%20into%20cracker.png)
+
+![alt text](https://github.com/PrudenceSelasiDela-Boso/-PASSWORD-CRACKING-JOHN-THE-RIPPER-AND-NETWORKWALKS-TOOLS-/blob/main/6%20Open%20file.png)
 
 The tool began testing possible passwords against the hash.
 
