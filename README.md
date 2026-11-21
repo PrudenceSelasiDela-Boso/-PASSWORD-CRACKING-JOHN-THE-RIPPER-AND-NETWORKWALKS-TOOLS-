@@ -44,13 +44,19 @@ I first visited the official John the Ripper website to download the software fo
 
 I downloaded the Windows version and extracted the files so I could access the program.
 
+![alt text](
+
 ### Step 2: Download Johnny
 
 Next, I downloaded Johnny, the graphical interface for John the Ripper.
 
 **Download link:** [Johnny – Official Website](https://openwall.info/wiki/john/johnny)
 
+![alt text](
+
+
 After downloading it, I ran the setup file and completed the installation.
+![alt text](
 
 ### Step 3: Open Johnny and Connect It to John the Ripper
 
@@ -65,6 +71,8 @@ I then followed these steps:
 5. Selected `john.exe`.
 6. Confirmed the selection.
 
+![alt text](
+
 This connected Johnny to the main John the Ripper program so that it could carry out the password-testing process.
 
 ### Step 4: Get the Locked PDF File
@@ -72,6 +80,8 @@ This connected Johnny to the main John the Ripper program so that it could carry
 I downloaded the training PDF file provided for the exercise and saved it on my computer.
 
 This was the file whose password I was going to test.
+
+![alt text](
 
 ### Step 5: Extract the PDF Hash
 
@@ -89,6 +99,8 @@ Then I:
 4. Waited for the website to process the file.
 5. Copied the hash value displayed on the screen.
 
+![alt text](
+
 **A little thing to watch out for:** The extracted hash should begin with `$pdf$`. I made sure to copy the complete value without leaving out any part.
 
 *For privacy, only use a training file or a file you are authorised to submit to an online service. Do not upload private or confidential documents to a third-party website.*
@@ -99,7 +111,7 @@ After copying the hash, I opened Notepad.
 
 I pasted the copied hash into the blank document and saved the file as:
 
-`hash1.txt`
+`hash 1 for pdf 1.txt`
 
 This text file contained the hash that Johnny would use for the password-testing exercise.
 
@@ -113,13 +125,17 @@ I opened Johnny again and followed these steps:
 
 The hash was then loaded into Johnny and displayed in the application.
 
+![alt text](
+
 ### Step 8: Start the Password Test
 
 After loading the hash, I clicked **Start new attack**.
 
 John the Ripper began testing possible passwords against the hash.
 
-The process took some time. How long it takes can depend on the computer being used and how difficult the password is to guess.
+How long it takes can depend on the computer being used and how difficult the password is to guess.
+
+![alt text](
 
 ### Step 9: Check the Result
 
@@ -128,6 +144,8 @@ I waited for the password-testing process to finish.
 When a matching password was found, Johnny displayed it in the application.
 
 I then used the recovered password to open the locked PDF file and confirm that it worked.
+
+![alt text](
 
 **That completed my first password-cracking exercise using John the Ripper and Johnny.**
 
@@ -163,6 +181,8 @@ I first visited the Networkwalks project task page and downloaded the PDF file p
 
 [Networkwalks – Password Cracking with Networkwalks Tools](https://networkwalks.com/project-task-lab-password-cracking-with-networkwalks-tools/)
 
+![alt text](
+
 I saved the file on my laptop so I could upload it to the Hash Calculator.
 
 ### Step 2: Open the Networkwalks Hash Calculator
@@ -185,6 +205,9 @@ I then:
 4. Waited for the tool to process it.
 
 After processing, the tool displayed the extracted PDF hash.
+
+![alt text](
+
 
 ### Step 4: Copy the Hash
 
@@ -209,6 +232,8 @@ On the Password Cracker page, I:
 3. Checked that the hash was in the box.
 4. Clicked **Start Cracking**.
 
+![alt text](
+
 The tool began testing possible passwords against the hash.
 
 ### Step 7: Wait for the Process to Finish
@@ -227,6 +252,8 @@ I entered the recovered password when prompted.
 
 The PDF opened successfully, confirming that the password worked.
 
+![alt text](
+
 **That completed my second password-cracking exercise using the Networkwalks tools.**
 
 ---
@@ -242,6 +269,8 @@ Both methods helped me understand how password cracking works, but the steps and
 | Saved the hash in a text file                                  | Copied the hash directly from the website   |
 | Loaded the hash into Johnny                                    | Pasted the hash into the Password Cracker   |
 | Started the attack through Johnny                              | Started the process through the online tool |
+
+I noticed that the 2 methods generated the same hash value and password recovered. 
 
 ## What I Learned
 
